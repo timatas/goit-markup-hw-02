@@ -5,3 +5,16 @@ body {
   font-family: 'Roboto', 'Releway', sans-serif;
   color: #434455;
 }
+.link {
+  text-decoration: none;
+}
+.logo link {
+  font-family: Raleway;
+  font-size: 18;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.web link {
+  color: #4d5ae5;
+}
