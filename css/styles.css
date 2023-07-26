@@ -1,20 +1,79 @@
-.title {
-  font-family: 'roboto', sans-serif;
+/* from conspect */
+root {
+  --font-logo: 'Releway', sans-serif;
+  --font-body: 'Roboto', sans-serif;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy_blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy_blue_modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
 }
+
 body {
-  font-family: 'Roboto', 'Releway', sans-serif;
-  color: #434455;
+  font-family: var(--font-body);
+  color: var(--slate);
+  background-color: var(--white);
 }
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-body);
+}
+
+ul {
+  list-style-type: none;
+}
+
 .link {
   text-decoration: none;
 }
+
+/* .page-header { 
+  background-color: #e0e0e0;
+}
+
+.page-nav .link {
+  color: var(--primary-accent-color);
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: var(--secondary-accent-color);
+}
+
+.page-nav .link:active {
+  color: var(--active-link-color);
+}*/
+
+.title {
+  color: var(--slate);
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0.1;
+}
+
 .logo link {
-  font-family: Raleway;
+  font-family: var(--font-logo);
   font-size: 18;
   font-weight: 800;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .web link {
-  color: #4d5ae5;
+  color: var(--iris);
+}
+.menu link {
+  font-family: var(--font-body);
+  font-weight: 500;
 }
