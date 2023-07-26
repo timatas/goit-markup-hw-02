@@ -1,4 +1,4 @@
-/* from conspect */
+/* from conspect 
 root {
   --font-logo: 'Releway', sans-serif;
   --font-body: 'Roboto', sans-serif;
@@ -14,18 +14,18 @@ root {
   --grey: #2e2f42;
   --white: #ffffff;
   --dairy: #fcfcfc;
-}
-
+}*/
 body {
-  font-family: var(--font-body);
-  color: var(--slate);
-  background-color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
 
-h1,
-h2,
-h3 {
-  font-family: var(--font-body);
+title {
+  color: #434455;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.4;
 }
 
 ul {
@@ -55,26 +55,21 @@ ul {
 .page-nav .link:active {
   color: var(--active-link-color);
 }*/
-
-.title {
-  color: var(--slate);
-  font-family: var(--font-body);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 0.1;
-}
-
-.logo link {
-  font-family: var(--font-logo);
-  font-size: 18;
+.logo {
+  color: #4d5ae5;
+  font-family: Raleway;
+  font-size: 18px;
   font-weight: 800;
-  color: #2e2f42;
+  line-height: 116.67;
+  letter-spacing: 0.54px;
   text-transform: uppercase;
 }
-.web link {
-  color: var(--iris);
+.studio-header {
+  color: #2e2f42;
 }
-.menu link {
-  font-family: var(--font-body);
-  font-weight: 500;
+footer {
+  background-color: #2e2f42;
+}
+.studio-footer {
+  color: #f4f4fd;
 }
