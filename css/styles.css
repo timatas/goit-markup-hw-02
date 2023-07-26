@@ -69,6 +69,7 @@ ul {
   font-size: 18;
   font-weight: 800;
   color: #2e2f42;
+  text-transform: uppercase;
 }
 .web link {
   color: var(--iris);
