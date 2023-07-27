@@ -39,7 +39,7 @@ ul {
 
 .nav-list-link .link:hover,
 .nav-list-link .link:focus {
-  color: #42412e;
+  color: inherit;
 }
 
 .nav-list-link .link:active {
