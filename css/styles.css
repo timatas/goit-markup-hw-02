@@ -14,7 +14,7 @@ ul {
 }
 
 /* ======== Header styles ======================= */
-
+/* Logo */
 .logo {
   color: #4d5ae5;
   font-family: Raleway;
@@ -27,7 +27,7 @@ ul {
 .studio-header {
   color: #2e2f42;
 }
-
+/* Navigation on pages */
 .nav-list {
   color: #2e2f42;
   font-weight: 500;
@@ -41,6 +41,20 @@ ul {
 }
 
 .nav-list .nav-list-link:active {
+  color: #404bbf;
+}
+/* Address */
+.contacts {
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts .contacts-link:hover,
+.contacts .contacts-link:focus {
+  color: #404bbf;
+}
+.contacts .contacts-link:active {
   color: #404bbf;
 }
 
