@@ -37,12 +37,12 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.nav-list .link:hover,
-.nav-list .link:focus {
-  color: #2e2f42;
+.nav-list-link .link:hover,
+.nav-list-link .link:focus {
+  color: #42412e;
 }
 
-.nav-list .link:active {
+.nav-list-link .link:active {
   color: #404bbf;
 }
 
