@@ -79,10 +79,12 @@ ul {
 }
 .main-section-btn:hover,
 .main-section-btn:focus {
-  color: #404bbf;
+  background: #404bbf;
+  color: #fff;
 }
 .main-section-btn:active {
-  color: #404bbf;
+  background: #404bbf;
+  color: #fff;
 }
 
 footer {
