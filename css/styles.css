@@ -88,12 +88,6 @@ ul {
 }
 /* =========================== */
 /* =====principles section===== */
-.principles section {
-}
-.principles-list {
-}
-.principles-list-item {
-}
 .principles-title {
   font-size: 20px;
   font-weight: 500;
@@ -106,8 +100,9 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
 /* =========================== */
+/* =====services section============ */
+
 footer {
   background-color: #2e2f42;
 }
