@@ -37,6 +37,15 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.nav-list .link:hover,
+.nav-list .link:focus {
+  color: #404bbf;
+}
+
+.nav-list .link:active {
+  color: #404bbf;
+}
+
 footer {
   background-color: #2e2f42;
 }
