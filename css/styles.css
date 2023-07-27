@@ -37,11 +37,11 @@ ul {
 
 .nav-list .nav-list-link:hover,
 .nav-list .nav-list-link:focus {
-  color: #404bbf;
+  color: inherit;
 }
 
 .nav-list .nav-list-link:active {
-  color: inherit;
+  color: #404bbf;
 }
 
 footer {
