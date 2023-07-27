@@ -58,6 +58,32 @@ ul {
 .contacts .contacts-link:active {
   color: #404bbf;
 }
+/* ====================================== */
+/* ==========Main section================ */
+.main-section {
+  background-color: #2e2f42;
+}
+.main-section-title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+.main-section-btn {
+  background: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.main-section-btn:hover,
+.main-section-btn:focus {
+  color: #404bbf;
+}
+.main-section-btn:active {
+  color: #404bbf;
+}
 
 footer {
   background-color: #2e2f42;
