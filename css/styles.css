@@ -128,10 +128,13 @@ h3 {
   background: #fff;
 }
 .employee-job {
+  font-weight: 400;
   color: #434455;
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
 }
 /* ================================ */
 footer {
