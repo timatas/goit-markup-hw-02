@@ -1,9 +1,19 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --grey: #2e2f42;
+  --white: #ffffff;
+}
 /*======= Base styles ============ */
 body {
   font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background-color: #ffffff;
+  color: var(--grey);
+  background-color: var(--white);
   line-height: 1.5;
+  font-size: 16px;
 }
 
 ul {
@@ -12,6 +22,8 @@ ul {
 
 .link {
   text-decoration: none;
+  font-style: normal;
+  color: currentColor;
 }
 
 h2 {
@@ -26,8 +38,8 @@ h2 {
 /* ======== Header styles ======================= */
 /* Logo */
 .logo {
-  color: #4d5ae5;
-  font-family: Raleway;
+  color: var(--iris);
+  font-family: 'Releway', sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 116.67;
@@ -35,45 +47,44 @@ h2 {
   text-transform: uppercase;
 }
 .studio-header {
-  color: #2e2f42;
+  color: var(--grey);
 }
 /* Navigation on pages */
 .nav-list {
-  color: #2e2f42;
+  color: var(--grey);
   font-weight: 500;
-
   letter-spacing: 0.02em;
 }
 
 .nav-list .nav-list-link:hover,
 .nav-list .nav-list-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .nav-list .nav-list-link:active {
-  color: #404bbf;
+  color: var(--ocean);
 }
 /* Address */
 .contacts {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--slate);
 }
 .contacts .contacts-link:hover,
 .contacts .contacts-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 .contacts .contacts-link:active {
-  color: #404bbf;
+  color: var(--ocean);
 }
 /* ====================================== */
 /* ==========Main section================ */
 .main-section {
-  background-color: #2e2f42;
+  background-color: var(--grey);
 }
 .main-section-title {
-  color: #fff;
+  color: var(--white);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -81,20 +92,19 @@ h2 {
   text-align: center;
 }
 .main-section-btn {
-  background: #4d5ae5;
-  color: #fff;
+  background: var(--iris);
+  color: var(--white);
   font-weight: 500;
-
   letter-spacing: 0.04em;
 }
 .main-section-btn:hover,
 .main-section-btn:focus {
-  background: #404bbf;
-  color: #fff;
+  background: var(--ocean);
+  color: var(--white);
 }
 .main-section-btn:active {
-  background: #404bbf;
-  color: #fff;
+  background: var(--ocean);
+  color: var(--white);
 }
 /* =========================== */
 /* =====principles section===== */
@@ -105,7 +115,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 .principles-discr {
-  color: #434455;
+  color: var(--slate);
   font-weight: 400;
   letter-spacing: 0.02em;
 }
@@ -115,10 +125,10 @@ h2 {
 /* ================================= */
 /* ======team-section=============== */
 .team-section {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 .team-section-list {
-  background: #fff;
+  background: var(--white);
 }
 .team-section-employee {
   font-size: 20px;
@@ -129,9 +139,8 @@ h2 {
 }
 .employee-job {
   font-weight: 400;
-  color: #434455;
+  color: var(--slate);
   text-align: center;
-
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -139,50 +148,48 @@ h2 {
 /* ================================ */
 /* =====Footer styles============== */
 footer {
-  background-color: #2e2f42;
+  background-color: var(--grey);
 }
 .studio-footer {
-  color: #f4f4fd;
+  color: var(--cloud);
 }
 .footer-text {
-  color: #f4f4fd;
-
+  color: var(--cloud);
   letter-spacing: 0.02em;
 }
 /* ================================ */
 /* =====Button section====== */
-.button-section {
-}
 
 .buttons {
   font-family: inherit;
-  background: #f4f4fd;
-  color: #4d5ae5;
+  background-color: var(--cloud);
+  color: var(--iris);
   text-align: center;
   font-weight: 500;
   letter-spacing: 0.04em;
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--cornflower);
+  cursor: pointer;
 }
 .buttons:hover,
 .buttons:focus {
-  background: #404bbf;
-  color: #ffffff;
+  background-color: var(--ocean);
+  color: var(--white);
 }
 .buttons:active {
-  background: #404bbf;
-  color: #ffffff;
+  background-color: var(--ocean);
+  color: var(--white);
 }
 /* ========================= */
 /* ======Menu section======= */
 .menu-title {
-  color: #2e2f42;
+  color: var(--grey);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .menu-title-choice {
-  color: #434455;
+  color: var(--slate);
   font-weight: 400;
   letter-spacing: 0.02em;
 }
