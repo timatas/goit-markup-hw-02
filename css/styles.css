@@ -160,6 +160,7 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
 }
 .buttons {
   background: #f4f4fd;
@@ -168,4 +169,5 @@ footer {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border: 1px solid #e7e9fc;
 }
