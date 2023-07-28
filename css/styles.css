@@ -137,6 +137,7 @@ h3 {
   text-align: center;
 }
 /* ================================ */
+/* =====Footer styles============== */
 footer {
   background-color: #2e2f42;
 }
@@ -147,4 +148,24 @@ footer {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/* ================================ */
+/* =====Button section====== */
+.button-section {
+}
+.button-all {
+  background: #404bbf;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.buttons {
+  background: #f4f4fd;
+  color: #4d5ae5;
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
