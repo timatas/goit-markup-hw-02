@@ -68,6 +68,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .main-section-btn {
   background: #4d5ae5;
@@ -107,6 +108,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 /* ================================= */
 footer {
