@@ -148,18 +148,6 @@ body {
   text-transform: capitalize;
 }
 /* ================================ */
-/* =====Footer styles============== */
-footer {
-  background-color: var(--grey);
-}
-.studio-footer {
-  color: var(--cloud);
-}
-.footer-text {
-  color: var(--cloud);
-  letter-spacing: 0.02em;
-}
-/* ================================ */
 /* =====Button section====== */
 
 .buttons {
@@ -193,5 +181,17 @@ footer {
 .menu-title-choice {
   color: var(--slate);
   font-weight: 400;
+  letter-spacing: 0.02em;
+}
+/* ================================ */
+/* =====Footer styles============== */
+.foot-fon {
+  background-color: var(--grey);
+}
+.studio-footer {
+  color: var(--cloud);
+}
+.footer-text {
+  color: var(--cloud);
   letter-spacing: 0.02em;
 }
