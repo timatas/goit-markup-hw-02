@@ -26,7 +26,7 @@ body {
   color: currentColor;
 }
 
-h2 {
+.title-2 {
   color: var(--grey);
   font-size: 36px;
   font-weight: 700;
@@ -35,7 +35,7 @@ h2 {
   text-transform: capitalize;
   text-align: center;
 }
-h3 {
+.title-3 {
   color: var(--grey);
   background-color: var(--white);
   font-size: 20px;
@@ -84,7 +84,7 @@ h3 {
 .contacts-link.link:focus {
   color: var(--ocean);
 }
-.contacts-link .link:active {
+.contacts-link.link:active {
   color: var(--ocean);
 }
 /* ====================================== */
