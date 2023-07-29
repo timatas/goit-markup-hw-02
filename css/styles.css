@@ -17,7 +17,7 @@ body {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
 }
 
 .link {
@@ -39,10 +39,10 @@ h2 {
 /* Logo */
 .logo {
   color: var(--iris);
-  font-family: 'Releway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
-  line-height: 116.67;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -53,19 +53,19 @@ h2 {
 .nav-list {
   color: var(--grey);
   font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-
-.nav-list .nav-list-link:hover,
-.nav-list .nav-list-link:focus {
+.nav-list .link:hover,
+.nav-list .link:focus {
   color: var(--ocean);
 }
 
-.nav-list .nav-list-link:active {
+.nav-list .link:active {
   color: var(--ocean);
 }
 /* Address */
-.contacts {
+.contacts-link {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
