@@ -26,7 +26,7 @@ body {
   color: currentColor;
 }
 
-.title-2 {
+.h-two {
   color: var(--grey);
   font-size: 36px;
   font-weight: 700;
@@ -35,7 +35,7 @@ body {
   text-transform: capitalize;
   text-align: center;
 }
-.title-3 {
+.h-three {
   color: var(--grey);
   background-color: var(--white);
   font-size: 20px;
