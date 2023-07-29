@@ -35,6 +35,13 @@ h2 {
   text-transform: capitalize;
   text-align: center;
 }
+h3 {
+  color: var(--grey);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 
 /* ======== Header styles ======================= */
 /* Logo */
@@ -98,6 +105,7 @@ h2 {
   color: var(--white);
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -112,13 +120,6 @@ h2 {
 }
 /* =========================== */
 /* =====principles section===== */
-.principles-title {
-  color: var(--grey);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
 .principles-discr {
   color: var(--slate);
   font-weight: 400;
@@ -132,15 +133,9 @@ h2 {
 .team-section {
   background-color: var(--cloud);
 }
-.team-section-employee {
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
+
 .employee-job {
-  background: var(--white);
+  background-color: var(--white);
   font-weight: 400;
   color: var(--slate);
   text-align: center;
