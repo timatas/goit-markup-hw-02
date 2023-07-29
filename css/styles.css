@@ -27,6 +27,7 @@ ul {
 }
 
 h2 {
+  color: var(--grey);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -92,10 +93,12 @@ h2 {
   text-align: center;
 }
 .main-section-btn {
+  font-family: inherit;
   background: var(--iris);
   color: var(--white);
   font-weight: 500;
   letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .main-section-btn:hover,
 .main-section-btn:focus {
@@ -109,6 +112,7 @@ h2 {
 /* =========================== */
 /* =====principles section===== */
 .principles-title {
+  color: var(--grey);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -127,9 +131,6 @@ h2 {
 .team-section {
   background-color: var(--cloud);
 }
-.team-section-list {
-  background: var(--white);
-}
 .team-section-employee {
   font-size: 20px;
   font-weight: 500;
@@ -138,6 +139,7 @@ h2 {
   text-align: center;
 }
 .employee-job {
+  background: var(--white);
   font-weight: 400;
   color: var(--slate);
   text-align: center;
